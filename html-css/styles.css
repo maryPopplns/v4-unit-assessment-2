@@ -1,4 +1,4 @@
-/* 
+/*
 
 these are the colors used in the example
 ***you can use them if you'd like or you can choose your own***
@@ -12,3 +12,38 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+#header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 60px;
+  width: 100vw;
+  background-color: rgb(34, 34, 34);
+}
+
+#dev-daily {
+  color: aliceblue;
+}
+
+#nav-bar1 {
+  
+}
+
+#nav-bar2 {
+  
+}
+
+#nav-bar3 {
+  
+}
+
+#nav-bar4 {
+  
+}
+
+/* .nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+} */

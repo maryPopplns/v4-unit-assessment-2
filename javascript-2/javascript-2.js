@@ -35,7 +35,9 @@ let foods = [
   and then adding the results together. 
 */
 
-//CODE HERE
+foods.forEach(function(val, i, arr) {
+  
+})
 
 //////////////////////////////////PROBLEMS 2-4//////////////////////////////////
 /*
