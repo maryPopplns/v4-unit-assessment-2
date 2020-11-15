@@ -1,49 +1,93 @@
-/*
+.background {
+  background-color: rgb(247, 245, 240);
+}
 
-these are the colors used in the example
-***you can use them if you'd like or you can choose your own***
-
-black - rgb(37, 37, 37)
-blue - rgb(42, 171, 226)
-shadow - rgba(102, 75, 75, .3)
-white - rgb(255, 255, 255) (default value) 
-
-the font is called 'nunito' and can be found on google fonts
-***you can use it if you'd like or you can choose your own***
-
-*/
-
-#header {
+.header {
   display: flex;
   position: fixed;
+  justify-content: space-around;
   align-items: center;
-  height: 60px;
+  background-color: rgb(63, 63, 63);
+  height: 75px;
   width: 100vw;
-  background-color: rgb(34, 34, 34);
 }
 
-#dev-daily {
-  color: aliceblue;
+.dev {
+width: 60vw;
+color: rgb(41, 112, 245);
+font-size: 25px;
 }
 
-#nav-bar1 {
-  
+.links {
+ color: white;
 }
 
-#nav-bar2 {
-  
+
+#profile-box {
+  margin-top: 120px;
+  margin-right: 40px;
+  padding: 25px;
+  float: right;
+  -webkit-box-shadow: 1px 5px 50px -19px #000000; 
+box-shadow: 1px 5px 50px -19px #000000;
+background-color: white;
+overflow: hidden;
 }
 
-#nav-bar3 {
-  
+#profile-img {
+  float: right;
+  /* padding-top: 110px;
+  padding-right: 40px; */
+  height: 140px;
+  width: 140px;
 }
 
-#nav-bar4 {
-  
+#name {
+  margin-left: 30px;
 }
 
-/* .nav-bar {
+.body {
+  max-width: 70vw;
+  margin-left: 5vw;
+}
+
+#title {
+  padding-top: 100px;
+  font-size: 25px;
+}
+
+#profile-box1 {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-} */
+  flex-direction: column;
+  float: right;
+  align-items: center;
+  -webkit-box-shadow: 1px 5px 50px -19px #000000; 
+  box-shadow: 1px 5px 50px -19px #000000;
+  background-color: white;
+  padding: 20px;
+  margin-right: 40px;
+  margin-top: 25px;
+  /* margin-top: 100px; */
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#blue {
+  position: relative;
+  left: 90%;
+  color: blue;
+}
+
+#images {
+margin-left: 50px;
+}
+
+.blue-footer {
+  display: flex;
+  height: 75px;
+  width: 100vw;
+  background-color: rgb(41, 112, 245);
+  align-items: center;
+}

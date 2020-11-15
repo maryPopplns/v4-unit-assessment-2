@@ -36,7 +36,7 @@ const savannah = ['lion', 'zebra', 'lion', 'giraffe']
 const desert = ['rattlesnake', 'coyote']
 //DO NOT EDIT CODE ABOVE
 
-let animals = [...forest, ...ocean, ...savannah, ...desert]
+const animals = [...forest, ...ocean, ...savannah, ...desert]
 
 
 /*
@@ -171,13 +171,12 @@ const classes = [
     If they are true, change them to false so that now you have 
     all online classes with no homework.
 */
-
+function loop () {
 for (let i=0; i<classes.length; i++) {
     for(let key in classes[i]) {
-        if (classes[i].key === true) {
-            key = false
-        }
+        classes[i].key = false
     }
+}
 }
 
   
@@ -194,13 +193,13 @@ const lettersToPair = ['e', 'k', 's', 'a', 'e', 's', 'a', 'n', 'k', 'n']
 let pairsArray = []
 //DO NOT EDIT CODE ABOVE
 
-// for (let i=0; i<lettersToPair.length; i++) {
-//     for (let j=0; j<lettersToPair.length; j++) {
-//         if(lettersToPair[i] === lettersToPair[j]) {
-//             return pairsArray.push([i, j])
-//         }
-//     }
-// }
+for (let i=0; i<lettersToPair.length; i++) {
+    for (let j=0; j<lettersToPair.length; j++) {
+        if(lettersToPair[i] === lettersToPair[j]) {
+            pairsArray.push([i, j])
+        }
+    }
+}
 
     
 
@@ -231,7 +230,7 @@ function Dog(name, age, breed, tricks) {
     Store the result in a variable called 'fido'.
 */
 
-let fido= new Dog('Fido', 3, 'Jack Russell', ['sit', 'shake'])
+let fido = new Dog('Fido', 3, 'Jack Russell', ['sit', 'shake'])
   
 
 ////////////////////PROBLEM 12////////////////////
@@ -245,7 +244,8 @@ function bark(name) {
     return '${name} says bark'
 }
 
-bark.call()
+
+
 
 
 /*
